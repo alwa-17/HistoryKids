@@ -4,13 +4,13 @@ const Map<int, List<HistoryQuestion>> historyQuestions = {
   4: [
     HistoryQuestion(
       question: 'What do historians study?',
-      options: ['The past', 'The future', 'Outer space only', 'Weather only'],
-      correctAnswer: 0,
+      options: ['The future','The past',  'Outer space only', 'Weather only'],
+      correctAnswer: 1,
     ),
     HistoryQuestion(
       question: 'Which object can help us learn about the past?',
-      options: ['A fossil', 'A new phone', 'A fresh sandwich', 'A balloon'],
-      correctAnswer: 0,
+      options: ['A new phone', 'A fresh sandwich', 'A fossil',  'A balloon'],
+      correctAnswer: 2,
     ),
     HistoryQuestion(
       question: 'What is an oral history?',
@@ -35,24 +35,24 @@ const Map<int, List<HistoryQuestion>> historyQuestions = {
     HistoryQuestion(
       question: 'Why do we study history?',
       options: [
-        'To understand the past',
         'To predict every event',
         'To avoid reading',
         'To stop learning',
+        'To understand the past',
       ],
-      correctAnswer: 0,
+      correctAnswer: 3,
     ),
   ],
   5: [
     HistoryQuestion(
       question: 'What is archaeology?',
       options: [
-        'Studying the past through material remains',
         'Studying planets only',
+        'Studying the past through material remains',
         'Predicting the weather',
         'Learning musical notes',
       ],
-      correctAnswer: 0,
+      correctAnswer: 1,
     ),
     HistoryQuestion(
       question: 'What is an artefact?',
@@ -134,12 +134,12 @@ const Map<int, List<HistoryQuestion>> historyQuestions = {
     HistoryQuestion(
       question: 'Why is it important to preserve historical heritage?',
       options: [
-        'To help future generations understand the past',
         'To erase historical evidence',
         'To prevent people from learning',
+        'To help future generations understand the past',
         'To replace all museums',
       ],
-      correctAnswer: 0,
+      correctAnswer: 2,
     ),
   ],
 };

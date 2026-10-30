@@ -1,5 +1,5 @@
+import 'package:material_ui/material_ui.dart';
 
-import 'package:flutter/material.dart';
 import 'pages/grade_selection.dart';
 
 void main() {
@@ -15,9 +15,7 @@ class HistoryKidsApp extends StatelessWidget {
       title: 'HistoryKids',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.blue,
-        ),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
       home: const GradeSelectionPage(),
